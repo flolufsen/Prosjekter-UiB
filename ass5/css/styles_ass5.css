@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+h1 {
+	text-align: center;
+	color: #003333;
+	font-size: 55px;
+	padding-top: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+p {
+	text-align: center;
+	color: #003333;
+    padding-top: 60px;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+#text_three {
+    display: none;
+}
+
+img {
+	filter: saturate(3);
+	justify-items: center;
+	padding: 10px 10px 40px 10px;
+	background: #E1E1E1;
+	box-shadow: 1px 2px 15px #333;
+	height: 250px;
+}
+
+body {
+	background-color: #7BB1D5;
+}
+
+body {
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 0;
+    align-items:flex-start;
+    justify-items:center;
+    text-align: center;
+    padding: 2em 10em 2em 10em;
+}
+#text_one {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#text_two {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#brown_corner {
+    grid-column: 1;
+    grid-row: 1;
+}   
+#brown_flat {
+    grid-column: 2;
+    grid-row: 2;
+}
+#green_roof {
+    grid-column: 3;
+    grid-row: 1;
+}
+#river {
+    grid-column:  1;
+    grid-row: 3;
+}
+#white_tivoli{
+    grid-column: 3;
+    grid-row: 3;
+}
+#button2 {
+    display: none;
+}
+
+button {
+	top: 1em;
+	right: 1em;
+    width:120px;
+    height:100px;
+    position: fixed;
+    background: #003333; 
+    color: white;
+    font-size: 23px;
+    font-family: 'Caveat', cursive;
+}
+
+button:hover {
+	background-color: #04BF9D;
+	color: #000000;
+}
